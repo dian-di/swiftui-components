@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		85778AD92E208439009A7517 /* SwiftUI-components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85778AD92E208439009A7517 /* SwiftUIComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		85778ADB2E208439009A7517 /* SwiftUI-components */ = {
+		85778ADB2E208439009A7517 /* SwiftUIComponents */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "SwiftUI-components";
+			path = SwiftUIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		85778AD02E208439009A7517 = {
 			isa = PBXGroup;
 			children = (
-				85778ADB2E208439009A7517 /* SwiftUI-components */,
+				85778ADB2E208439009A7517 /* SwiftUIComponents */,
 				85778ADA2E208439009A7517 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		85778ADA2E208439009A7517 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85778AD92E208439009A7517 /* SwiftUI-components.app */,
+				85778AD92E208439009A7517 /* SwiftUIComponents.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		85778AD82E208439009A7517 /* SwiftUI-components */ = {
+		85778AD82E208439009A7517 /* SwiftUIComponents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85778AE62E20843B009A7517 /* Build configuration list for PBXNativeTarget "SwiftUI-components" */;
+			buildConfigurationList = 85778AE62E20843B009A7517 /* Build configuration list for PBXNativeTarget "SwiftUIComponents" */;
 			buildPhases = (
 				85778AD52E208439009A7517 /* Sources */,
 				85778AD62E208439009A7517 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				85778ADB2E208439009A7517 /* SwiftUI-components */,
+				85778ADB2E208439009A7517 /* SwiftUIComponents */,
 			);
-			name = "SwiftUI-components";
+			name = SwiftUIComponents;
 			packageProductDependencies = (
 			);
 			productName = "SwiftUI-components";
-			productReference = 85778AD92E208439009A7517 /* SwiftUI-components.app */;
+			productReference = 85778AD92E208439009A7517 /* SwiftUIComponents.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 85778AD42E208439009A7517 /* Build configuration list for PBXProject "SwiftUI-components" */;
+			buildConfigurationList = 85778AD42E208439009A7517 /* Build configuration list for PBXProject "SwiftUIComponents" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85778AD82E208439009A7517 /* SwiftUI-components */,
+				85778AD82E208439009A7517 /* SwiftUIComponents */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +256,7 @@
 				DEVELOPMENT_TEAM = FZB65FSCPN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUI-components";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +285,7 @@
 				DEVELOPMENT_TEAM = FZB65FSCPN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUI-components";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85778AD42E208439009A7517 /* Build configuration list for PBXProject "SwiftUI-components" */ = {
+		85778AD42E208439009A7517 /* Build configuration list for PBXProject "SwiftUIComponents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85778AE42E20843B009A7517 /* Debug */,
@@ -314,7 +316,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85778AE62E20843B009A7517 /* Build configuration list for PBXNativeTarget "SwiftUI-components" */ = {
+		85778AE62E20843B009A7517 /* Build configuration list for PBXNativeTarget "SwiftUIComponents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85778AE72E20843B009A7517 /* Debug */,
