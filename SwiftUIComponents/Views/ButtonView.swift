@@ -25,6 +25,26 @@ struct ButtonView: View {
                 Text("button_Style")
                     .font(.headline)
             }
+            
+            Button {
+                print("Edit button was tapped")
+            } label: {
+                Image(systemName: "pencil")
+            }
+            
+            Button("Edit", systemImage: "pencil") {
+                print("Edit button was tapped")
+            }
+            
+            Button {
+                print("Edit button was tapped")
+            } label: {
+                Label("Edit", systemImage: "pencil")
+                    .padding()
+                    .foregroundStyle(.white)
+                    .background(.red)
+            }
+
 
             // role
             Section {
